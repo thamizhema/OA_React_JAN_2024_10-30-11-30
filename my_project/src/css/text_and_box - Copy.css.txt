@@ -1,0 +1,42 @@
+.main-div {
+  height: 500px;
+  width: 500px;
+  background: lightblue;
+}
+.box {
+  height: 100px;
+  width: 100px;
+  background: white;
+  /* border-radius: 50%; */
+  /* margin: 10px; */
+  /* margin: 10px 20px 30px 40px; */
+  /* margin-inline: 10px; */
+  /* margin-block: 10px; */
+
+  /* padding: 10px; */
+  /* padding: 10px 20px 30px 40px; */
+  /* padding-inline: 10px; */
+  /* padding-block: 20px; */
+  box-sizing: border-box;
+  /* border-width: 2px;
+  border-style: solid;
+  border-color: blue; */
+  /* border: 5px solid red; */
+  margin: auto;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3) inset,
+    5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+p {
+  font-size: 25px;
+  color: teal;
+  font-family: Arial;
+  font-weight: normal;
+  font-style: italic;
+  text-decoration: overline;
+  line-height: 50px;
+  letter-spacing: 5px;
+  word-spacing: 20px;
+  text-align: left;
+  text-indent: 50px;
+}

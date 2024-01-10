@@ -1,0 +1,101 @@
+<html>
+  <head></head>
+  <body>
+    <table border="1">
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Number1</th>
+          <th>Number2</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Python</td>
+          <td colspan="2">1234565789</td>
+          <!-- <td colspan="0" >1234565789</td> -->
+        </tr>
+        <tr>
+          <td rowspan="2">java</td>
+          <td>546465454</td>
+          <td>223456578</td>
+        </tr>
+        <tr>
+          <!-- <td  rowspan="0">java</td> -->
+          <td>789456123</td>
+          <td>321456879</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <form>
+      <fieldset>
+        <legend>Inputs</legend>
+        <label for="un">Username</label
+        ><input id="un" type="text" value="default value" />
+        <input type="email" />
+        <input type="password" value="1234567" readonly />
+      </fieldset>
+      <fieldset>
+        <legend>Choice</legend>
+        <label for="py">Python</label><input id="py" type="checkbox" />
+        <label>Java</label> <input type="checkbox" /> <label>C++</label>
+        <input type="checkbox" checked />
+
+        <br />
+        <label>Male</label><input type="radio" name="g" /> <label>Female</label
+        ><input type="radio" name="g" /> <label>Other</label
+        ><input type="radio" name="g" />
+      </fieldset>
+
+      <fieldset>
+        <legend>Picker</legend>
+        <input type="date" />
+        <input type="week" />
+        <input type="month" />
+        <input type="datetime-local" />
+      </fieldset>
+
+      <fieldset>
+        <input type="file" />
+        <input type="hidden" />
+
+        <select>
+          <option>C++</option>
+          <option>JAVA</option>
+          <option>PYTHON</option>
+          <option>DART</option>
+        </select>
+
+        <textarea cols="30" rows="10"></textarea>
+
+        <input type="submit" />
+      </fieldset>
+    </form>
+
+    <form>
+      <table>
+        <tr>
+          <th>Field Name</th>
+          <th>Field Inputs</th>
+        </tr>
+        <tr>
+          <td>Username</td>
+          <td><input type="text" /></td>
+        </tr>
+        <tr>
+          <td>Username</td>
+          <td><input type="text" /></td>
+        </tr>
+        <tr>
+          <td>Email</td>
+          <td><input type="text" /></td>
+        </tr>
+        <tr>
+          <td>Username</td>
+          <td><input type="date " /></td>
+        </tr>
+      </table>
+    </form>
+  </body>
+</html>

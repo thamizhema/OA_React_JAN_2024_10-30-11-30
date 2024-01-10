@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+.nav {
+  height: 50px;
+  width: 100%;
+  background: teal;
+  position: sticky;
+  top: 20px;
+}
+.add {
+  background: red;
+  color: white;
+  padding: 20px;
+  border-radius: 50%;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+}
+.main-box {
+  height: 500px;
+  width: 500px;
+  background: rgba(95, 158, 160, 0.609);
+  position: relative;
+  top: 10px;
+  left: 50px;
+}
+.box {
+  height: 100px;
+  width: 100px;
+  position: absolute;
+}
+.box1 {
+  background: red;
+  top: 20px;
+  left: 20px;
+  z-index: 2;
+}
+.box2 {
+  background: hotpink;
+  top: 26px;
+  left: 26px;
+  z-index: 1;
+}
+.box3 {
+  background: blue;
+  top: 32px;
+  left: 32px;
+  z-index: 1;
+}
+.box4 {
+  background: green;
+  top: 38px;
+  left: 38px;
+}
