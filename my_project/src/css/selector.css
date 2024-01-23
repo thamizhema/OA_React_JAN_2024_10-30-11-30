@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.main-box {
+  height: 300px;
+  width: 400px;
+  background: lightblue;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.main-box div {
+  height: 50px;
+  width: 50px;
+  background: yellow;
+}
+/* 
+.box:first-of-type {
+  background: red;
+}
+.box:first-child {
+  background: blue;
+}
+.box:last-child {
+  background: pink;
+}
+.box:last-of-type {
+  background: hotpink;
+}
+
+.box:nth-child(3) {
+  background: purple;
+}
+.box:nth-of-type(3) {
+  background: green;
+} */
+
+/* .main-box div:nth-of-type(n + 4) {
+  background: purple;
+} */
+.main-box div:nth-of-type(even) {
+  background: teal;
+}
+.goal {
+  height: 300px;
+  width: 300px;
+  display: block;
+  background: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  transition: 0.5s;
+}
+.goal::before {
+  content: "";
+  height: 200px;
+  width: 200px;
+  background: lightcoral;
+  display: block;
+  position: absolute;
+  border-radius: inherit;
+}
+.goal::after {
+  position: absolute;
+  content: "";
+  height: 100px;
+  width: 100px;
+  background: plum;
+  display: block;
+  border-radius: inherit;
+}
+
+.goal:hover {
+  border-radius: 50%;
+}
+
+.goal + p {
+  height: 300px;
+  width: 300px;
+  background: teal;
+}
+[name="th"] {
+  color: blue;
+  font-size: 20px;
+}
+[name="th"]::after {
+  content: attr(data-val);
+}
