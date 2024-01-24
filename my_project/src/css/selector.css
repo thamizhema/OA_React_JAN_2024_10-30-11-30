@@ -64,7 +64,6 @@
   border-radius: inherit;
 }
 .goal::after {
-  position: absolute;
   content: "";
   height: 100px;
   width: 100px;

@@ -1,0 +1,20 @@
+a:visited {
+  color: hotpink;
+}
+a:active {
+  color: red;
+}
+
+input:focus {
+  background: hotpink;
+}
+input:invalid {
+  background: red;
+}
+input:valid {
+  background: green;
+}
+
+input:disabled {
+  background: gray;
+}
