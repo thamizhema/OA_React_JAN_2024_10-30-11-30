@@ -1,0 +1,17 @@
+.main-box {
+  height: 200px;
+  width: 200px;
+  background: red;
+}
+.main-box .box {
+  height: 100px;
+  width: 100px;
+  background: red;
+  border: 2px solid black;
+}
+.main-box .box:hover {
+  color: yellow;
+}
+.main-box .box:hover span {
+  color: white;
+}/*# sourceMappingURL=style.css.map */

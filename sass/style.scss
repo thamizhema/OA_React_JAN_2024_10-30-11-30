@@ -1,0 +1,17 @@
+.main-box {
+  height: 200px;
+  width: 200px;
+  background: red;
+  .box {
+    height: 100px;
+    width: 100px;
+    background: red;
+    border: 2px solid black;
+    &:hover {
+      color: yellow;
+      span {
+        color: white;
+      }
+    }
+  }
+}
